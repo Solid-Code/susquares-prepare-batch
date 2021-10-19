@@ -5,7 +5,7 @@ const assert = require('assert').strict;
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
 
-const [,,outputFile,image, topLeftSquare, widthInSquares, heightInSquares, url, title] = process.argv;
+const [,,outputFile,image, topLeftSquare, widthInSquares, heightInSquares, title, url] = process.argv;
 const csvWriter = createCsvWriter({
     path: outputFile,
     header: [
