@@ -3,7 +3,7 @@ Node CL that produces a CSV with the data needed for a batch update from a prope
 
 
 # Requirements:  
-Recent Versions of Node and NPM  
+Recent Versions of Node and NPM - https://nodejs.org/en/download/
 A png that is the same dimensions as the area you want to customize.  
 
 
